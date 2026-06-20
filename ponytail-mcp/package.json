@@ -8,6 +8,7 @@
   "scripts": { "test": "node --test ./test/*.test.js" },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.19.0",
+    "@sentry/node": "^10.0.0",
     "zod": "^3.23.0"
   }
 }
