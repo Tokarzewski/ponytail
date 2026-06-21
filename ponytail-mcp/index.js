@@ -3,7 +3,6 @@
 // prompt (user-invoked) and a tool (for hosts that pull context via tools).
 // It does NOT replace the always-on adapters; it's the clean option for hosts
 // whose only injection point is the prompt menu (see #70).
-import "./instrument.js"; // Sentry init — must come first to instrument later imports.
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
